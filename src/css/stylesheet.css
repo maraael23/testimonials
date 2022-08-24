@@ -33,21 +33,21 @@ body{
     margin:15px;
     padding:30px;
     border-radius:10px;
-    box-shadow: 1px 1px 9px rgb(163, 163, 163);
+    box-shadow: 1px 3px 15px rgb(163, 163, 163);
 }
 #black-blue-card{
     background-color: var(--dark-blue);
     margin:15px;
     padding:30px;
     border-radius:10px;
-    box-shadow: 1px 1px 9px rgb(163, 163, 163);
+    box-shadow: 1px 3px 15px rgb(163, 163, 163);
 }
 #white-card2{
     background-color: var(--white);
     margin:15px;
     padding:30px;
     border-radius:10px;
-    box-shadow: 1px 1px 9px rgb(163, 163, 163);
+    box-shadow: 1px 3px 15px rgb(163, 163, 163);
 }
 
 .white-name{
@@ -109,8 +109,7 @@ color: hsl(228, 45%, 44%);
 }   
 @media screen and (min-width:375px) {
     body{
-        max-width: max-content;
-        margin: auto;
+        margin: 20px;
     }
     .quote{
         border-radius:0px;
@@ -121,6 +120,9 @@ color: hsl(228, 45%, 44%);
     }
 }
 @media screen and (min-width:800px) {
+    body{
+        margin:40px;
+    }
     .quote{
         border-radius:0px;
         position:absolute;
@@ -131,6 +133,9 @@ color: hsl(228, 45%, 44%);
     
 }
    @media screen and (min-width:1280px){
+        body{
+            margin:40px;
+        }
         #container{
         display:grid;
         grid-template-columns: 25% 25% 25% 25%;

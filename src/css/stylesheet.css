@@ -114,7 +114,7 @@ color: hsl(228, 45%, 44%);
     .quote{
         border-radius:0px;
         position:absolute;
-        left:55%;
+        left:60%;
         width:16%;
         z-index:1;
     }

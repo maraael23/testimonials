@@ -115,7 +115,7 @@ color: hsl(228, 45%, 44%);
         border-radius:0px;
         position:absolute;
         left:60%;
-        width:10%;
+        width:100px;
         z-index:1;
     }
 }

@@ -94,7 +94,7 @@ body{
     opacity:70%;
     line-height: 24px;
 }
-img{
+.profile{
     border-radius:50%;
     float:left;
     margin-right:20px;

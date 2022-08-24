@@ -111,6 +111,13 @@ color: hsl(228, 45%, 44%);
     .white-name , .ver-white{
         font-size:11px;
     }
+    .quote{
+        border-radius:0px;
+        position:absolute;
+        left:60%;
+        width:12%;
+        z-index:1;
+    }
 }
 @media screen and (min-width:375px) and (max-width:800px) {
     body{

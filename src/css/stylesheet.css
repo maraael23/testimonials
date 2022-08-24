@@ -107,7 +107,19 @@ margin-left: 600px;
 .attribution a { 
 color: hsl(228, 45%, 44%); 
 }   
-@media screen and (min-width:375px) {
+@media screen and (max-width:375px){
+    .white-name , .ver-white{
+        font-size:11px;
+    }
+    .quote{
+        border-radius:0px;
+        position:absolute;
+        left:60%;
+        width:12%;
+        z-index:1;
+    }
+}
+@media screen and (min-width:375px) and (max-width:800px) {
     body{
         margin: 20px;
     }
@@ -115,11 +127,11 @@ color: hsl(228, 45%, 44%);
         border-radius:0px;
         position:absolute;
         left:60%;
-        width:100px;
+        width:16%;
         z-index:1;
     }
 }
-@media screen and (min-width:800px) {
+@media screen  and (min-width:800px) and (max-width:1280px) {
     body{
         margin:40px;
     }

@@ -107,7 +107,11 @@ margin-left: 600px;
 .attribution a { 
 color: hsl(228, 45%, 44%); 
 }   
-@media screen and (max-width:800px) {
+@media screen and (max-width:375px){
+    .white-name , .ver-white{
+        font-size:11px;
+}
+@media screen and (min-width:375px) and (max-width:800px) {
     body{
         margin: 20px;
     }
